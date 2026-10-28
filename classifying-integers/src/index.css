@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --color-dark-plum: #4B0082;
+  --color-medium-purple-dark: #663399;
+  --color-soft-lavender: #F3EEFA;
+  --color-light-lavender: #E6D6FA;
+  --color-medium-purple-accent: #9370DB;
+}
+
+body {
+  font-family: 'Lexend', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #F3EEFA;
+  color: #2D1A47;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Gentle lavender drag-over pulse animation */
+@keyframes lavender-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 3px rgba(147, 112, 219, 0.3), 0 4px 12px rgba(102, 51, 153, 0.08);
+  }
+  50% {
+    box-shadow: 0 0 0 5px rgba(147, 112, 219, 0.5), 0 6px 16px rgba(102, 51, 153, 0.14);
+  }
+}
+
+.lavender-drop-active {
+  animation: lavender-pulse 1.8s infinite ease-in-out;
+}

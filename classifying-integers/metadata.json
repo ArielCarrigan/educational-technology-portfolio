@@ -1,0 +1,6 @@
+{
+  "name": "Classifying Integers",
+  "description": "An interactive, web-based drag-and-drop sorting activity for sixth-grade math students to classify positive integers, negative integers, and non-integers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
