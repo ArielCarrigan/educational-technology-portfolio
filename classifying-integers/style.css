@@ -23,6 +23,7 @@ h1{
 	}
 	#dhtmlgoodies_dragDropContainer{	/* Main container for this script */
 		width:790px;
+		margin: 0 auto;
 		height:770px;
 		border:2px solid #9370DB;
 		background-color:#FFF;
