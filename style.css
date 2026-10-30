@@ -1,0 +1,306 @@
+
+/*
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #FAF8F5;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: none;
+	font-weight: 500;
+	color: #243B53;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #5BA689;
+}
+
+a:hover {
+}
+
+#wrapper {
+	overflow: hidden;
+	background: #FAF8F5;
+}
+
+.container {
+	width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+#header-wrapper {
+	overflow: hidden;
+	height: 600px;
+}
+
+#header {
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+/* Logo */
+
+#logo {
+	overflow: hidden;
+	height: 150px;
+}
+
+#logo h1, #logo p {
+	text-align: center;
+}
+
+#logo h1 {
+    padding: 15px 0px 20px 0px;
+    letter-spacing: 1px;
+    text-transform: none;
+    font-family: Georgia, serif;
+    font-size: 52px;
+    font-weight: normal;
+    color: #243B53;
+}
+#logo p {
+    margin-top: 0px;
+    padding: 0px 0px 15px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #C98C91;
+}
+#logo p a {
+	color: #696969;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #3C342E;
+}
+
+
+/* Menu */
+
+#menu-wrapper {
+	overflow: hidden;
+	height: 52px;
+	margin-bottom: 2em;
+	background: #243B53;
+}
+
+#menu {
+	overflow: hidden;
+	height: 52px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	 display: block;
+    padding: 0px 22px;
+    line-height: 52px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+#menu a:hover, #menu .current_page_item a {
+    background: #C98C91;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+}
+
+/* Page */
+
+#page {
+	overflow: hidden;
+	padding: 20px 20px 40px 20px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 752px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+/* Footer */
+
+#footer {
+	 background: #243B53;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#footer p {
+	margin: 0;
+	padding: 5px 0;
+    line-height: 1.6;
+    text-align: center;
+    text-shadow: none;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+#footer .attribution {
+    font-size: 11px;
+    color: #E6C4C7;
+    margin-top: 10px;
+}
+#footer a {
+	text-decoration: underline;
+	color: #909090;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	color: #383838;
+}
+
+.box1 {
+	overflow: hidden;
+	height: 300px;
+	background: url(images/img04.jpg) no-repeat center bottom;
+}
+
+
+/* Three Column Content */
+
+#three-column {
+	display: flex;
+    gap: 25px;
+    padding: 15px 0px 30px 0px;
+    align-items: stretch;
+}
+
+#three-column .tbox1,
+#three-column .tbox2,
+#three-column .tbox3 {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+}
+
+.box-style {
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    display: flex;
+}
+
+.box-style h2 {
+	padding: 10px 0px;
+    letter-spacing: 0px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #243B53;
+}
+
+.box-style .content {
+	 width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-style .content .button {
+    margin-top: auto;
+}
+.button
+{
+	 display: inline-block;
+    margin: 1em 0em;
+    background: #C98C91;
+    padding: 12px 25px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background: #A96F75;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+    #three-column {
+        flex-direction: column;
+    }
+
+    #menu-wrapper,
+    #menu {
+        height: auto;
+    }
+
+    #menu a {
+        line-height: 40px;
+        padding: 0 12px;
+    }
+
+    #logo {
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    #logo h1 {
+        font-size: 38px;
+    }
+}
