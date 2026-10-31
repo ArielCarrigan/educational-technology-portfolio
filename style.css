@@ -304,3 +304,19 @@ a:hover {
         font-size: 38px;
     }
 }
+/* Portfolio Project Images */
+
+.portfolio-image {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    height: 380px;
+    object-fit: contain;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+/* Align Portfolio Images */
+
+.box-style .content .portfolio-image {
+    margin-top: auto;
+}
